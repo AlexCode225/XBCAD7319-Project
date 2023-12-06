@@ -1,0 +1,117 @@
+html {
+  font-size: 23px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+    
+  }
+}
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("/Images2/hero-bg.jpg");
+    background-size: cover;
+   // background-repeat: no-repeat;
+    color: cadetblue;
+}
+
+
+
+.newsletter-form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .newsletter-form input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+.newsletter-button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+    .newsletter-button:hover {
+        background-color: cadetblue;
+    }
+
+
+
+
+
+
+
+
+
+.nav-item {
+    position: relative;
+}
+
+    .nav-item:hover {
+        background-color: cadetblue;
+      
+    }
+
+    .nav-item a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        .nav-item a:hover {
+            background-color: cadetblue;
+            color: white;
+        }
+
+    .nav-item.active {
+        background-44;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 5;
+    background-color: cadetblue;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+    #back-to-top.show {
+        display: block;
+    }
+   
